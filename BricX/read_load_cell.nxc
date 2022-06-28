@@ -1,0 +1,45 @@
+// ARDUINO NXT interface
+
+#define ARDUINO_ADDRESS 0x43
+#define ADDRESS_SEND (ARDUINO_ADDRESS << 1)
+#define ADDRESS_RECV (ADDRESS_SEND + 1)
+#define ARDUINO_PORT  IN_1
+
+string i2cReadString(byte port, byte adr, byte reg, byte cnt)
+{
+ string temp;
+ byte outbuf[];
+ byte cmdbuf[];
+ ArrayBuild(cmdbuf,adr, reg);
+ byte nByteReady = 0;
+ while (I2CStatus(port, nByteReady) ==  STAT_COMM_PENDING)
+  {
+ }
+ Wait (100);
+ if(I2CBytes(port, cmdbuf, cnt, outbuf))
+ {
+ temp = ByteArrayToStr(outbuf);
+ //TextOut(0, LCD_LINE6, temp2, false);
+ }
+ return temp;
+}
+
+void ShowSensorInfo(byte port, byte address)
+{
+  ClearScreen();
+  TextOut(0, LCD_LINE2, i2cReadString(port, address, 0x00, 15), false);
+  TextOut(0, LCD_LINE3, i2cReadString(port, address, 0x08, 15), false);
+  TextOut(0, LCD_LINE4, i2cReadString(port, address, 0x10, 15), false);
+}
+
+task main() {
+   SetSensorLowspeed(ARDUINO_PORT);
+   ShowSensorInfo(ARDUINO_PORT,ADDRESS_SEND);
+   while(true) {
+    Wait (100);
+   TextOut(0, LCD_LINE5, i2cReadString(ARDUINO_PORT, ADDRESS_SEND, 0x42, 4), false);
+
+   }
+}
+
+

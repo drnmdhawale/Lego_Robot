@@ -1,0 +1,537 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002ShowSensorInfo	6	1	0	4	6
+1	__D0SetSensorLowspeed_inline_main	6	1	4	4	3
+2	__signed_stack_001ShowSensorInfo	6	1	8	4	6
+3	__RLSBmutex0	9	0	12	4	2
+4	__CLSWMutex3	9	0	16	4	2
+5	__CLSCSMutex3	9	0	20	4	4
+6	__TextOutMutex	9	0	24	4	8
+7	__CLSRMutex3	9	0	28	4	2
+8	__signed_stack_001main	6	1	32	4	2
+9	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	36	4	2
+10	__DU0SetSensorLowspeed_inline_main	5	1	40	4	2
+11	__signed_stack_001i2cReadString	6	1	44	4	2
+12	__RLSBmutex2	9	0	48	4	2
+13	__RLSBmutex1	9	0	52	4	2
+14	__signed_stack_002main	6	1	56	4	2
+15	__RLSBmutex3	9	0	60	4	2
+16	__CLSRMutex2	9	0	64	4	2
+17	__CLSCSMutex0	9	0	68	4	4
+18	__D0i2cReadString	6	1	72	4	7
+19	__CLSWMutex0	9	0	76	4	2
+20	__Wait_7qG2_ms_7qG2_000_inline_i2cReadString	5	1	80	4	2
+21	__D0main	6	1	84	4	5
+22	__D0ShowSensorInfo	6	1	88	4	9
+23	__CLSWMutex2	9	0	92	4	2
+24	__CLSRMutex1	9	0	96	4	2
+25	__CLSCSMutex2	9	0	100	4	4
+26	__CLSWMutex1	9	0	104	4	2
+27	__CLSRMutex0	9	0	108	4	2
+28	__CLSCSMutex1	9	0	112	4	4
+29	__constVal200	4	0	116	2	2
+30	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	118	1	2
+31	____initialize_global_data_return	1	1	119	1	3
+32	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	120	1	4
+33	__zfSetSensorLowspeed_inline_main	1	1	121	1	2
+34	__ShowSensorInfo_7qG2_address_7qG2_000	1	1	122	1	4
+35	__i2cReadString_return	1	1	123	1	7
+36	__i2cReadString_7qG2_nByteReady_7qG2_000	1	1	124	1	2
+37	__ShowSensorInfo_7qG2_port_7qG2_000	1	1	125	1	4
+38	__i2cReadString_7qG2_cnt_7qG2_000	1	1	126	1	6
+39	__i2cReadString_7qG2_port_7qG2_000	1	1	127	1	6
+40	__ShowSensorInfo_return	1	1	128	1	3
+41	__i2cReadString_7qG2_reg_7qG2_000	1	1	129	1	5
+42	__i2cReadString_7qG2_adr_7qG2_000	1	1	130	1	5
+43	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	131	1	2
+44	__constVal15	2	0	132	1	1
+45	____ResetSensorSubroutine_return	1	1	133	1	3
+46	__RLSBResultVar	2	1	134	1	8
+47	____ReadLSBytesVar_return	1	1	135	1	3
+48	__constVal0	2	1	136	1	1
+49	__constVal1	2	0	137	1	4
+50	__ResetSensorTmp	1	1	138	1	2
+51	__ResetSensorPort	1	1	139	1	3
+52	__RLSBytesCountVar	1	1	140	1	8
+53	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	141	1	2
+54	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	142	1	2
+55	__PFTmp	1	1	143	1	1
+56	__zfi2cReadString	1	1	144	1	5
+57	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	145	1	2
+58	__RLSBIterationsVar	1	1	146	1	4
+59	__zfmain	1	1	147	1	2
+60	__RLSReadPort	1	1	148	1	4
+61	__TextOutArgs	8	0	4	16	24
+62	__TextOutArgs.Result	2	1	152	1	24
+63	__TextOutArgs.Location	8	0	2	4	24
+64	__TextOutArgs.Location.X	4	1	156	2	24
+65	__TextOutArgs.Location.Y	4	1	158	2	24
+66	__TextOutArgs.Text	7	0	160	4	24
+67	__TextOutArgs.Text.Text_type	1	0	0	1	0
+68	__TextOutArgs.Options	5	1	164	4	24
+69	__PointOutArgs	8	0	3	12	4
+70	__PointOutArgs.Result	2	1	168	1	4
+71	__PointOutArgs.Location	8	0	2	4	4
+72	__PointOutArgs.Location.X	4	1	172	2	4
+73	__PointOutArgs.Location.Y	4	1	174	2	4
+74	__PointOutArgs.Options	5	1	176	4	4
+75	__CLSRArgs0	8	0	4	12	5
+76	__CLSRArgs0.Result	2	1	180	1	5
+77	__CLSRArgs0.Port	1	1	181	1	5
+78	__CLSRArgs0.Buffer	7	0	182	4	5
+79	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+80	__CLSRArgs0.BufferLen	1	1	184	1	5
+81	__CLSCSArgs0	8	0	3	4	8
+82	__CLSCSArgs0.Result	2	1	188	1	8
+83	__CLSCSArgs0.Port	1	1	189	1	8
+84	__CLSCSArgs0.BytesReady	1	1	190	1	8
+85	__CLSWArgs0	8	0	4	12	5
+86	__CLSWArgs0.Result	2	1	192	1	5
+87	__CLSWArgs0.Port	1	1	193	1	5
+88	__CLSWArgs0.Buffer	7	0	194	4	5
+89	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+90	__CLSWArgs0.ReturnLen	1	1	196	1	5
+91	__ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString	7	0	198	4	2
+92	__ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString.__ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString_type	1	0	0	1	0
+93	__strretvali2cReadString	7	0	200	4	2
+94	__strretvali2cReadString.__strretvali2cReadString_type	1	0	0	1	0
+95	__strbufmain	7	0	202	4	2
+96	__strbufmain.__strbufmain_type	1	0	0	1	0
+97	__strretvalmain	7	0	204	4	2
+98	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+99	__RLSLastGoodReadVar	7	0	206	4	2
+100	__RLSLastGoodReadVar.__RLSLastGoodReadVar_type	1	0	0	1	0
+101	__RLSReadBufVar	7	0	208	4	8
+102	__RLSReadBufVar.__RLSReadBufVar_type	1	0	0	1	0
+103	__strbufi2cReadString	7	0	210	4	7
+104	__strbufi2cReadString.__strbufi2cReadString_type	1	0	0	1	0
+105	__i2cReadString_7qG2_temp_7qG2_000	7	0	212	4	2
+106	__i2cReadString_7qG2_temp_7qG2_000.__i2cReadString_7qG2_temp_7qG2_000_type	1	0	0	1	0
+107	__i2cReadString_7qG2_outbuf_7qG2_000	7	0	214	4	2
+108	__i2cReadString_7qG2_outbuf_7qG2_000.__i2cReadString_7qG2_outbuf_7qG2_000_type	1	0	0	1	0
+109	__i2cReadString_7qG2_cmdbuf_7qG2_000	7	0	216	4	2
+110	__i2cReadString_7qG2_cmdbuf_7qG2_000.__i2cReadString_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
+111	__strbufShowSensorInfo	7	0	218	4	6
+112	__strbufShowSensorInfo.__strbufShowSensorInfo_type	1	0	0	1	0
+113	__strretvalShowSensorInfo	7	0	220	4	6
+114	__strretvalShowSensorInfo.__strretvalShowSensorInfo_type	1	0	0	1	0
+115	__strbufByteArrayToStr_inline_i2cReadString	7	0	222	4	2
+116	__strbufByteArrayToStr_inline_i2cReadString.__strbufByteArrayToStr_inline_i2cReadString_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	35	0	#line 35 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	36	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	35	2	#line 35 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	35	2	#line 35 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	36	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	35	5	#line 35 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	36	5	#line 36 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	37	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __004__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3694	40	#line 3694 "NXCDefs.h"
+0	3695	40	#pragma macro 4
+0	3695	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4182	44	#line 4182 "NXCDefs.h"
+0	3694	44	#line 3694 "NXCDefs.h"
+0	3761	44	#line 3761 "NXCDefs.h"
+0	36	44	#line 36 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	36	44	#line 36 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	37	44		set __ShowSensorInfo_7qG2_port_7qG2_000, 0
+0	36	47	#line 36 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	36	47	#line 36 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	37	47		set __ShowSensorInfo_7qG2_address_7qG2_000, 134
+0	36	50	#line 36 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	37	50	#line 37 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	38	50		subcall ShowSensorInfo, __ShowSensorInfo_return
+0	37	52	#line 37 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	37	52	#line 37 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	38	52		set __D0main, 1
+0	38	55	#line 38 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	39	55		tst 5, __zfmain, __D0main
+0	38	58	#line 38 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	39	58		brtst 4, __NXC_Label_551, __zfmain
+0	38	61	#line 38 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	39	61		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	38	64	#line 38 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	7921	64	#line 7921 "NXCDefs.h"
+0	7922	64		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	67	#line 7921 "NXCDefs.h"
+0	39	67	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	39	67	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	40	67		set __signed_stack_001main, 0
+0	39	70	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	39	70	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	40	70		set __signed_stack_002main, 24
+0	39	73	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	39	73	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	40	73		set __i2cReadString_7qG2_port_7qG2_000, 0
+0	39	76	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	39	76	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	40	76		set __i2cReadString_7qG2_adr_7qG2_000, 134
+0	39	79	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	39	79	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	40	79		set __i2cReadString_7qG2_reg_7qG2_000, 66
+0	39	82	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	39	82	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	40	82		set __i2cReadString_7qG2_cnt_7qG2_000, 4
+0	39	85	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	39	85	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	40	85		subcall i2cReadString, __i2cReadString_return
+0	39	87	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	40	87		mov __strretvalmain, __strbufi2cReadString
+0	39	89	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	40	89		strcat __strbufmain, __strretvalmain
+0	39	93	#line 39 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	40	93		set __D0main, 0
+0	41	96	#line 41 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	42	96		acquire __TextOutMutex
+0	41	97	#line 41 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	42	97		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	41	99	#line 41 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	42	99		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	41	101	#line 41 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	42	101		mov __TextOutArgs.Options, __D0main
+0	41	103	#line 41 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	42	103		mov __TextOutArgs.Text, __strbufmain
+0	41	105	#line 41 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	42	105		syscall 13, __TextOutArgs
+0	41	108	#line 41 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	42	108		mov __D0main, __TextOutArgs.Result
+0	41	110	#line 41 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	42	110		release __TextOutMutex
+0	41	111	#line 41 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	45	111	#line 45 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	46	111		jmp __NXC_Label_550
+0	45	113	#line 45 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+0	46	113		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5821	0	#pragma macro 25
+2	5821	0		acquire __CLSWMutex0
+2	5821	1		acquire __CLSWMutex1
+2	5821	2		acquire __CLSWMutex2
+2	5821	3		acquire __CLSWMutex3
+2	5821	4		mov __CLSWArgs0.Port, __RLSReadPort
+2	5821	6		mov __CLSWArgs0.ReturnLen, __RLSBytesCountVar
+2	5821	8		mov __CLSWArgs0.Buffer, __RLSReadBufVar
+2	5821	10		syscall 21, __CLSWArgs0
+2	5821	13		mov __RLSBResultVar, __CLSWArgs0.Result
+2	5821	15		release __CLSWMutex0
+2	5821	16		release __CLSWMutex1
+2	5821	17		release __CLSWMutex2
+2	5821	18		release __CLSWMutex3
+2	5821	19	#line 5821 "NXTDefs.h"
+2	5822	19		brtst 4, __RLSBReturnVar, __RLSBytesCountVar
+2	5823	22		arrinit __RLSReadBufVar, __constVal0, __RLSBytesCountVar
+2	5824	26		brtst 5, __RLSBErrorVar, __RLSBResultVar
+2	5825	29		set __RLSBIterationsVar, 4
+2	5827	32	#pragma macro 23
+2	5827	32		acquire __CLSCSMutex0
+2	5827	33		acquire __CLSCSMutex1
+2	5827	34		acquire __CLSCSMutex2
+2	5827	35		acquire __CLSCSMutex3
+2	5827	36		mov __CLSCSArgs0.Port, __RLSReadPort
+2	5827	38		syscall 23, __CLSCSArgs0
+2	5827	41		mov __RLSBytesCountVar, __CLSCSArgs0.BytesReady
+2	5827	43		mov __RLSBResultVar, __CLSCSArgs0.Result
+2	5827	45		release __CLSCSMutex0
+2	5827	46		release __CLSCSMutex1
+2	5827	47		release __CLSCSMutex2
+2	5827	48		release __CLSCSMutex3
+2	5827	49	#line 5827 "NXTDefs.h"
+2	5828	49		sub __RLSBIterationsVar, __RLSBIterationsVar, __constVal1
+2	5829	53		brtst 2, __RLSBErrorVar, __RLSBIterationsVar
+2	5830	56		brtst 0, __RLSBErrorVar, __RLSBResultVar
+2	5831	59		brtst 4, __RLSBReadyToReadVar, __RLSBResultVar
+2	5833	62		wait2 NA, __constVal15
+2	5834	65		jmp __RLSBDoCheckStatusVar
+2	5837	67	#pragma macro 25
+2	5837	67		acquire __CLSRMutex0
+2	5837	68		acquire __CLSRMutex1
+2	5837	69		acquire __CLSRMutex2
+2	5837	70		acquire __CLSRMutex3
+2	5837	71		mov __CLSRArgs0.Port, __RLSReadPort
+2	5837	73		mov __CLSRArgs0.BufferLen, __RLSBytesCountVar
+2	5837	75		syscall 22, __CLSRArgs0
+2	5837	78		mov __RLSReadBufVar, __CLSRArgs0.Buffer
+2	5837	80		mov __RLSBResultVar, __CLSRArgs0.Result
+2	5837	82		release __CLSRMutex0
+2	5837	83		release __CLSRMutex1
+2	5837	84		release __CLSRMutex2
+2	5837	85		release __CLSRMutex3
+2	5837	86	#line 5837 "NXTDefs.h"
+2	5838	86		brtst 5, __RLSBErrorVar, __RLSBResultVar
+2	5839	89		mov __RLSLastGoodReadVar, __RLSReadBufVar
+2	5840	91		jmp __RLSBDoneVar
+2	5842	93		mov __RLSReadBufVar, __RLSLastGoodReadVar
+2	5844	95		arrsize __RLSBytesCountVar, __RLSReadBufVar
+2	5846	98		subret ____ReadLSBytesVar_return
+3	12	0	#line 12 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	13	0		arrbuild __i2cReadString_7qG2_cmdbuf_7qG2_000, __i2cReadString_7qG2_adr_7qG2_000, __i2cReadString_7qG2_reg_7qG2_000
+3	12	5	#line 12 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	12	5	#line 12 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	14	5	#line 14 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	15	5		set __i2cReadString_7qG2_nByteReady_7qG2_000, 0
+3	14	8	#line 14 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	14	8	#line 14 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	15	8	#pragma macro 23
+3	15	8		acquire __CLSCSMutex0
+3	15	9		acquire __CLSCSMutex1
+3	15	10		acquire __CLSCSMutex2
+3	15	11		acquire __CLSCSMutex3
+3	15	12		mov __CLSCSArgs0.Port, __i2cReadString_7qG2_port_7qG2_000
+3	15	14		syscall 23, __CLSCSArgs0
+3	15	17		mov __i2cReadString_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+3	15	19		mov __D0i2cReadString, __CLSCSArgs0.Result
+3	15	21		release __CLSCSMutex0
+3	15	22		release __CLSCSMutex1
+3	15	23		release __CLSCSMutex2
+3	15	24		release __CLSCSMutex3
+3	3814	25	#line 3814 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	14	25	#line 14 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	15	25		mov __signed_stack_001i2cReadString, __D0i2cReadString
+3	15	27	#line 15 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	16	27		set __D0i2cReadString, 32
+3	15	30	#line 15 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	16	30		cmp 4, __zfi2cReadString, __signed_stack_001i2cReadString, __D0i2cReadString
+3	15	34	#line 15 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	16	34		mov __D0i2cReadString, __zfi2cReadString
+3	16	36	#line 16 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	17	36		brtst 4, __NXC_Label_492, __zfi2cReadString
+3	17	39	#line 17 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	18	39		jmp __NXC_Label_491
+3	17	41	#line 17 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	17	41	#line 17 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	18	41		set __Wait_7qG2_ms_7qG2_000_inline_i2cReadString, 100
+3	17	44	#line 17 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	7921	44	#line 7921 "NXCDefs.h"
+3	7922	44		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_i2cReadString
+3	7921	47	#line 7921 "NXCDefs.h"
+3	18	47	#line 18 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	18	47	#line 18 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	19	47	#pragma macro 28
+3	19	47		acquire __RLSBmutex0
+3	19	48		acquire __RLSBmutex1
+3	19	49		acquire __RLSBmutex2
+3	19	50		acquire __RLSBmutex3
+3	19	51		mov __RLSReadPort, __i2cReadString_7qG2_port_7qG2_000
+3	19	53		mov __RLSReadBufVar, __i2cReadString_7qG2_cmdbuf_7qG2_000
+3	19	55		mov __RLSBytesCountVar, __i2cReadString_7qG2_cnt_7qG2_000
+3	19	57		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+3	19	59		tst 4, __D0i2cReadString, __RLSBResultVar
+3	19	62		mov __i2cReadString_7qG2_cnt_7qG2_000, __RLSBytesCountVar
+3	19	64		mov __i2cReadString_7qG2_outbuf_7qG2_000, __RLSReadBufVar
+3	19	66		release __RLSBmutex0
+3	19	67		release __RLSBmutex1
+3	19	68		release __RLSBmutex2
+3	19	69		release __RLSBmutex3
+3	3846	70	#line 3846 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	20	70	#line 20 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	21	70		tst 5, __zfi2cReadString, __D0i2cReadString
+3	20	73	#line 20 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	21	73		brtst 4, __NXC_Label_499, __zfi2cReadString
+3	20	76	#line 20 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	21	76		mov __ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString, __i2cReadString_7qG2_outbuf_7qG2_000
+3	18494	78	#line 18494 "NXCDefs.h"
+3	18495	78		arrtostr __strbufByteArrayToStr_inline_i2cReadString, __ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString
+3	18494	81	#line 18494 "NXCDefs.h"
+3	22	81	#line 22 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	23	81		mov __strretvali2cReadString, __strbufByteArrayToStr_inline_i2cReadString
+3	22	83	#line 22 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	23	83		strcat __strbufi2cReadString, __strretvali2cReadString
+3	22	87	#line 22 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	23	87		mov __i2cReadString_7qG2_temp_7qG2_000, __strbufi2cReadString
+3	22	89	#line 22 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	23	89	#line 23 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	24	89	#line 24 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	25	89		strcat __strbufi2cReadString, __i2cReadString_7qG2_temp_7qG2_000
+3	24	93	#line 24 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	25	93		subret __i2cReadString_return
+3	24	95	#line 24 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	26	95	#line 26 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+3	27	95		subret __i2cReadString_return
+4	6069	0	#line 6069 "NXCDefs.h"
+4	6070	0	#pragma macro 6
+4	6070	0		mov __PointOutArgs.Location.X, __constVal200
+4	6070	2		mov __PointOutArgs.Location.Y, __constVal200
+4	6070	4		mov __PointOutArgs.Options, __constVal1
+4	6070	6		syscall 14, __PointOutArgs
+4	3890	9	#line 3890 "NXCDefs.h"
+4	6069	9	#line 6069 "NXCDefs.h"
+4	29	9	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	29	9	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	9		set __signed_stack_001ShowSensorInfo, 0
+4	29	12	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	29	12	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	12		set __signed_stack_002ShowSensorInfo, 48
+4	29	15	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	29	15	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	15		mov __i2cReadString_7qG2_port_7qG2_000, __ShowSensorInfo_7qG2_port_7qG2_000
+4	29	17	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	29	17	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	17		mov __i2cReadString_7qG2_adr_7qG2_000, __ShowSensorInfo_7qG2_address_7qG2_000
+4	29	19	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	29	19	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	19		set __i2cReadString_7qG2_reg_7qG2_000, 0
+4	29	22	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	29	22	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	22		set __i2cReadString_7qG2_cnt_7qG2_000, 15
+4	29	25	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	29	25	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	25		subcall i2cReadString, __i2cReadString_return
+4	29	27	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	27		mov __strretvalShowSensorInfo, __strbufi2cReadString
+4	29	29	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	29		strcat __strbufShowSensorInfo, __strretvalShowSensorInfo
+4	29	33	#line 29 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	33		set __D0ShowSensorInfo, 0
+4	30	36	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	36		acquire __TextOutMutex
+4	30	37	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	37		mov __TextOutArgs.Location.X, __signed_stack_001ShowSensorInfo
+4	30	39	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	39		mov __TextOutArgs.Location.Y, __signed_stack_002ShowSensorInfo
+4	30	41	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	41		mov __TextOutArgs.Options, __D0ShowSensorInfo
+4	30	43	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	43		mov __TextOutArgs.Text, __strbufShowSensorInfo
+4	30	45	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	45		syscall 13, __TextOutArgs
+4	30	48	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	48		mov __D0ShowSensorInfo, __TextOutArgs.Result
+4	30	50	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	50		release __TextOutMutex
+4	30	51	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	51	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	51		set __signed_stack_001ShowSensorInfo, 0
+4	30	54	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	54	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	54		set __signed_stack_002ShowSensorInfo, 40
+4	30	57	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	57	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	57		mov __i2cReadString_7qG2_port_7qG2_000, __ShowSensorInfo_7qG2_port_7qG2_000
+4	30	59	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	59	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	59		mov __i2cReadString_7qG2_adr_7qG2_000, __ShowSensorInfo_7qG2_address_7qG2_000
+4	30	61	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	61	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	61		set __i2cReadString_7qG2_reg_7qG2_000, 8
+4	30	64	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	64	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	64		set __i2cReadString_7qG2_cnt_7qG2_000, 15
+4	30	67	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	30	67	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	67		subcall i2cReadString, __i2cReadString_return
+4	30	69	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	69		mov __strretvalShowSensorInfo, __strbufi2cReadString
+4	30	71	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	71		strcat __strbufShowSensorInfo, __strretvalShowSensorInfo
+4	30	75	#line 30 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	75		set __D0ShowSensorInfo, 0
+4	31	78	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	78		acquire __TextOutMutex
+4	31	79	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	79		mov __TextOutArgs.Location.X, __signed_stack_001ShowSensorInfo
+4	31	81	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	81		mov __TextOutArgs.Location.Y, __signed_stack_002ShowSensorInfo
+4	31	83	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	83		mov __TextOutArgs.Options, __D0ShowSensorInfo
+4	31	85	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	85		mov __TextOutArgs.Text, __strbufShowSensorInfo
+4	31	87	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	87		syscall 13, __TextOutArgs
+4	31	90	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	90		mov __D0ShowSensorInfo, __TextOutArgs.Result
+4	31	92	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	92		release __TextOutMutex
+4	31	93	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	93	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	93		set __signed_stack_001ShowSensorInfo, 0
+4	31	96	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	96	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	96		set __signed_stack_002ShowSensorInfo, 32
+4	31	99	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	99	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	99		mov __i2cReadString_7qG2_port_7qG2_000, __ShowSensorInfo_7qG2_port_7qG2_000
+4	31	101	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	101	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	101		mov __i2cReadString_7qG2_adr_7qG2_000, __ShowSensorInfo_7qG2_address_7qG2_000
+4	31	103	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	103	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	103		set __i2cReadString_7qG2_reg_7qG2_000, 16
+4	31	106	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	106	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	106		set __i2cReadString_7qG2_cnt_7qG2_000, 15
+4	31	109	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	31	109	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	109		subcall i2cReadString, __i2cReadString_return
+4	31	111	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	111		mov __strretvalShowSensorInfo, __strbufi2cReadString
+4	31	113	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	113		strcat __strbufShowSensorInfo, __strretvalShowSensorInfo
+4	31	117	#line 31 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	32	117		set __D0ShowSensorInfo, 0
+4	32	120	#line 32 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	33	120		acquire __TextOutMutex
+4	32	121	#line 32 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	33	121		mov __TextOutArgs.Location.X, __signed_stack_001ShowSensorInfo
+4	32	123	#line 32 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	33	123		mov __TextOutArgs.Location.Y, __signed_stack_002ShowSensorInfo
+4	32	125	#line 32 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	33	125		mov __TextOutArgs.Options, __D0ShowSensorInfo
+4	32	127	#line 32 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	33	127		mov __TextOutArgs.Text, __strbufShowSensorInfo
+4	32	129	#line 32 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	33	129		syscall 13, __TextOutArgs
+4	32	132	#line 32 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	33	132		mov __D0ShowSensorInfo, __TextOutArgs.Result
+4	32	134	#line 32 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	33	134		release __TextOutMutex
+4	32	135	#line 32 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	34	135	#line 34 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+4	35	135		subret __ShowSensorInfo_return
+5	46	0	#line 46 "C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc"
+5	47	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc
+1	__ResetSensorSubroutine	116	NXTDefs.h
+2	__ReadLSBytesVar	129	NXTDefs.h
+3	i2cReadString	229	C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc
+4	ShowSensorInfo	326	C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc
+5	__initialize_global_data	463	C:\Documents and Settings\Nandkishor Dhawale\Desktop\I2C_Kishor\read_load_cell.nxc
