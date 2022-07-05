@@ -1,4 +1,7 @@
-#!/usr/bin/env pybricks-micropython
+# This code was written by Nandkshor Motiram Dhawale, PhD and his intern students on Jan 22nd 2021.
+# This code is written create sound "beep" on the lego ev3 platform
+# The problem statement was given by my self as the R&D Cell Incharge at P.V.P.I.T Budhgaon, Sangli
+
 from pybricks import ev3brick as brick # import pybricks library 
 from pybricks.ev3devices import Motor # import motor 
 from pybricks.parameters import Port # import port
