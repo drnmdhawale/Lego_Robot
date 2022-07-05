@@ -9,6 +9,12 @@
 
 // This example code is in the public domain.
 
+// This code was written by Nandkishor Motiram Dhawale, On June 22nd 2012.
+// This code is written to read a data from a customised load cell sensor developed using Arduino platform and 
+// intefaced with Lego NXT Robotic Platform
+// The problem statement was given by the my doctoral advisor Dr. V.I. Adamchuk from Department of
+// Bioresource Engineering at McGill University, Macdonalds Campus. Ste-Anne-de-Bellevue, QC. Canada
+
 
 #include <Wire.h>
 
