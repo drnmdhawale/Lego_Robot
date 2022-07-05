@@ -1,11 +1,12 @@
+# This code was written by Nandkshor Motiram Dhawale, PhD and his intern students on Jan 22nd 2021.
+# This code is written get the readings from the ultrasound sensor on the lego ev3 platform
+# The problem statement was given by my self as the R&D Cell Incharge at P.V.P.I.T Budhgaon, Sangli
 
-#!/usr/bin/env pybricks-micropython 
 from pybricks import ev3brick as brick 
 from pybricks.ev3devices import Motor, UltrasonicSensor 
 from pybricks.parameters import Port 
 from pybricks.tools import wait 
 from pybricks.robotics import DriveBase
-
 
 # Play a sound. 
 brick.sound.beep() 
